@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-todo-app"]=this["webpackJsonpreact-todo-app"]||[]).push([[0],{4:function(e,t,o){"use strict";o.r(t);o(0);var p=o(2),r=o.n(p),a=o(3),c=Object(a.jsx)("h1",{children:"Hello from Create React App"});r.a.render(c,document.getElementById("root"))}},[[4,1,2]]]);
-//# sourceMappingURL=main.921371d1.chunk.js.map
