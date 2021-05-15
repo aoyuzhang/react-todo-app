@@ -51,6 +51,10 @@ class TodoContainer extends React.Component {
     })
   }
 
+  addTodoItem = title => {
+    console.log(title);
+  }
+
   render() {
     return (
       <div>
