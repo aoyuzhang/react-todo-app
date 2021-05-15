@@ -23,7 +23,7 @@ const SinglePage = () => {
       slug: "about-author",
       title: "About the Author",
       description:
-        "This app was developed by me following Ibas Majid's tutorial. So go head and contact him at haoyuzhang@umontreal.ca to offer him jobs.",
+        "This app was developed by aoyuzhang.github.io following Ibas Majid's tutorial. So go head and contact him at haoyuzhang@umontreal.ca to offer him jobs.",
     },
   ]
 
@@ -32,7 +32,7 @@ const SinglePage = () => {
   const {title, description } = aboutContent
 
   return (
-    <div>
+    <div className="main__content">
       <h1>{title}</h1>
       <p>{description}</p>
     </div>
