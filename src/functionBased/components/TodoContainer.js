@@ -96,7 +96,7 @@ const TodoContainer = () => {
             </div>
           </div>
         </Route>
-        <Route path="/react-todo-app/about">
+        <Route path="/react-todo-app/about" >
           <About />
         </Route>
         <Route path ="*">
