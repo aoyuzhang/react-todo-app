@@ -1,16 +1,17 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
 
   const links = [
     {
       id: 1,
-      path: "/",
+      path: "/react-todo-app",
       text: "Home",
     },
     {
       id: 2,
-      path: "/about",
+      path: "/react-todo-app/about",
       text: "About",
     },
   ]
@@ -19,7 +20,11 @@ const Navbar = () => {
     <nav className="navBar">
       <ul>
         {links.map(link =>{
-          return <li key = {link.id}>{link.text}</li>
+          return(
+            <li key = {link.id}>
+              <Link to ={link.path}>{link.text}</Link>
+            </li>
+          )
         })}
       </ul>
     </nav>

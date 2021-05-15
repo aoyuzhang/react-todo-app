@@ -82,7 +82,7 @@ const TodoContainer = () => {
     <>
       <Navbar />
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/react-todo-app">
           <div className = "container">
             <div className = "inner">
               <Header/>
@@ -96,7 +96,7 @@ const TodoContainer = () => {
             </div>
           </div>
         </Route>
-        <Route path="/about">
+        <Route path="/react-todo-app/about">
           <About />
         </Route>
         <Route path ="*">
